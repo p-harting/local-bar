@@ -19,6 +19,13 @@ body {
 header {
     background-color: #402E32;
     color: #FFF8F1;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -29,6 +36,26 @@ header a {
 #menu {
     font-size: 120%;
     list-style-type: none;
+}
+
+/* Navbar */
+nav {
+    position: absolute;
+    background-color: #402E32;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
 }
 
 /* Main Content */
