@@ -26,6 +26,11 @@ header a {
     text-decoration: none;
 }
 
+#menu {
+    font-size: 120%;
+    list-style-type: none;
+}
+
 /* Main Content */
 main {
     background-color: #FFF8F1;
