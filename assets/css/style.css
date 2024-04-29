@@ -85,10 +85,19 @@ footer hr {
     margin-bottom: 10px;
 }
 
+#footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
 #footer-left {
     display: flex;
     text-align: center;
     flex-direction: column;
+}
+
+#footer-right {
+    visibility: hidden;
 }
 
 #socials-footer {
@@ -123,5 +132,35 @@ footer hr {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #footer-container {
+        display: flex;
+        flex-direction: row;
+        padding: 0 6vw;
+    }
+
+    #footer-left {
+        width: 20vw;
+        margin-right: 50%;
+    }
+
+    #footer-right {
+        visibility: unset;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #footer-right > div {
+        width: 14vw;
+    }
+
+    #footer-navigation h3, #legal-links h3 {
+        line-height: 40px;
+    }
+
+    #footer-navigation ul, #legal-links ul {
+    list-style-type: none;
+    line-height: 26x;
     }
 }
