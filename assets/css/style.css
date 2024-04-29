@@ -21,6 +21,11 @@ header {
     color: #FFF8F1;
 }
 
+header a {
+    color: #FFF8F1;
+    text-decoration: none;
+}
+
 /* Main Content */
 main {
     background-color: #FFF8F1;
