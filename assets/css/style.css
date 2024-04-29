@@ -1,0 +1,24 @@
+/* Wildcard to override default browser styles */
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #402E32;
+    color: #FFF8F1;
+}
+
+/* Main Content */
+main {
+    background-color: #FFF8F1;
+    color: #3a3a3a
+}
+
+/* Footer */
+footer {
+    background-color: #B08969;
+    color: #3a3a3a;
+}
