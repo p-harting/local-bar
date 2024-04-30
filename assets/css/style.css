@@ -134,6 +134,7 @@ footer hr {
         display: none;
     }
 
+    /* Footer */
     #footer-container {
         display: flex;
         flex-direction: row;

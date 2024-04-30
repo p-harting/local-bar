@@ -2,17 +2,37 @@
 
 Local Bar is your one-stop destination for all things local nightlife. Designed to enhance your experience, our website provides a hassle-free platform for exploring your favorite neighborhood bar. Whether you're a regular or a first-time visitor, Local Bar offers an easy-to-navigate homepage, a comprehensive drinks page, an event calendar, and a convenient contact section.
 
-## Features 
+## Wireframe
+
+## Color Palette 
+
+## Features
 
 ### Existing Features
 
+- __Navigation Bar__
+
+  - Included on all pages, the responsive navigation bar includes links to the Homepage, Drinks, Events and Contact page and is identical on each page
+  - This feature will enable the user to effortlessly move between pages on any device
+
+- __Footer__
+
+  - The Footer is streamlined and adapts to mobile screens, featuring online social links and a logo. On desktop, it mirrors the navigation bar and offers a range of legal links.
+  
 ### Features Left to Implement
+
+- Landing page / Reviews / About us
+- Drinks page
+- Events page
+- Contact page / Form to own result page
 
 ## Testing
 
 ### Validator Testing
 
 ### Unfixed Bugs
+
+- Mobile footer is to big because of hidden right side
 
 ## Deployment
 
@@ -28,5 +48,9 @@ The live link can be found here: https://p-harting.github.io/local-bar/
 ## Credits
 
 ### Content
+
+- Instructions on how to implement a resposive navigation bar was taken from the love running tutorials
+- All icons were taken from [Font Awesome](https://fontawesome.com/)
+- All fonts were taken from [Google Fonts](https://fonts.google.com/)
 
 ### Media
