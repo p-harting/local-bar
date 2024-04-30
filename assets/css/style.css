@@ -276,3 +276,11 @@ footer hr {
     line-height: 26x;
     }
 }
+
+/* Media query: desktop */
+@media screen and (min-width: 992px) {
+    /* Reviews */
+    #review-container .review:nth-last-child(-n+2) {
+        display: block;
+    }
+}
