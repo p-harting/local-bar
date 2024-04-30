@@ -170,9 +170,10 @@ main {
 #about-left {
     width: 95vw;
     height: 95vw;
+    max-width: 360px;
+    max-height: 360px;
     margin: 0 auto;
     background: url("../images/about-us.webp") no-repeat center center / cover;
-    margin: 10px 0;
 }
 
 #about-right {
@@ -279,6 +280,29 @@ footer hr {
 
     #review-container .review:nth-last-child(-n+1) {
         display: block;
+    }
+
+    /* About us */
+    #about {
+        flex-direction: row;
+    }
+    
+    #mobile-heading {
+        display: none;
+    }
+
+    #about-right {
+        width: 60%;
+    }
+
+    #about-left {
+        width: 30%;
+        margin-top: 60px;
+    }
+
+    #about-right > h2,
+    #about-right > p:first-child {
+        display: flex;
     }
 
     /* Footer */
