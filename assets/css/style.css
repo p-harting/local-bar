@@ -89,12 +89,12 @@ main {
     align-items: center;
 }
 
-#hero-left {
+#hero-container {
     display: flex;
     flex-direction: column;
 }
 
-#hero-left button {
+#hero-container button {
     background-color: #B08969;
     border: none;
     color: white;
@@ -106,21 +106,17 @@ main {
     font-size: 16px;
 }
 
-#hero-left a {
+#hero-container a {
     color: #ffffff;
 }
 
-#hero-left > div {
+#hero-container > div {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     margin-top: 4%;
     margin-right: 4%;
-}
-
-#hero-right {
-    display: none;
 }
 
 /* Footer */
@@ -151,10 +147,6 @@ footer hr {
     display: flex;
     text-align: center;
     flex-direction: column;
-}
-
-#footer-right {
-    display: none;
 }
 
 #socials-footer {
@@ -189,6 +181,15 @@ footer hr {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    /* Hero */
+    #hero-container {
+        padding: 0 10%;
+    }
+
+    #hero-container p {
+        max-width: 900px;
     }
 
     /* Footer */
