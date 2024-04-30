@@ -232,8 +232,18 @@ footer hr {
         padding: 0 10%;
     }
 
+    #hero-container button {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
     #hero-container p {
         max-width: 900px;
+    }
+
+    #hero-container > div {
+        flex-direction: row;
+        align-items: end;
     }
 
     /* Reviews */
