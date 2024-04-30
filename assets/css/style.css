@@ -145,6 +145,7 @@ main {
     border-radius: 10px;
     padding: 10px 10px;
     text-align: left;
+    max-width: 450px;
 }
 
 .review div {
@@ -233,6 +234,15 @@ footer hr {
 
     #hero-container p {
         max-width: 900px;
+    }
+
+    /* Reviews */
+    .review {
+        margin: 0 20px;
+    }
+
+    #review-container .review:nth-last-child(-n+1) {
+        display: block;
     }
 
     /* Footer */
