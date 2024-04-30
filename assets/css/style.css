@@ -68,6 +68,15 @@ main {
     margin-top: 57px;
 }
 
+#hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero-right {
+    display: none;
+}
+
 /* Footer */
 footer {
     background-color: #B08969;
