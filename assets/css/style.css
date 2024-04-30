@@ -159,6 +159,32 @@ main {
     color: #ffe234;
 }
 
+/* About us */
+#about {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin-bottom: 40px;
+}
+
+#about-left {
+    width: 95vw;
+    height: 95vw;
+    margin: 0 auto;
+    background: url("../images/about-us.webp") no-repeat center center / cover;
+    margin: 10px 0;
+}
+
+#about-right {
+    margin: 0 auto;
+}
+
+#about-right > h2,
+#about-right > p:first-child {
+    display: none;
+}
+
+
 /* Footer */
 footer {
     background-color: #B08969;
