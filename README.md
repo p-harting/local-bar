@@ -30,9 +30,10 @@ Local Bar is your one-stop destination for all things local nightlife. Designed 
 
 ### Validator Testing
 
-### Unfixed Bugs
+### Bugs
 
-- Mobile footer is to big because of hidden right side
+- [✔] Mobile footer is too big because of hidden right side
+- 
 
 ## Deployment
 
@@ -50,6 +51,7 @@ The live link can be found here: https://p-harting.github.io/local-bar/
 ### Content
 
 - Instructions on how to implement a resposive navigation bar was taken from the love running tutorials
+- Design for hr element was taken from [CSSTricks](https://css-tricks.com/examples/hrs/)
 - All icons were taken from [Font Awesome](https://fontawesome.com/)
 - All fonts were taken from [Google Fonts](https://fonts.google.com/)
 

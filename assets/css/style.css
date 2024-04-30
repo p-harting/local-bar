@@ -108,7 +108,7 @@ footer hr {
 }
 
 #footer-right {
-    visibility: hidden;
+    display: none;
 }
 
 #socials-footer {
