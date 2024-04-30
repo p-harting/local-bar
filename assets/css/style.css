@@ -22,7 +22,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    padding-right: 10px;
+    padding: 10px 10px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -64,6 +64,8 @@ main {
     color: #3a3a3a;
     /* Main element takes up extra space */
     flex: 1 0 auto;
+    /* Push main below the header */
+    margin-top: 57px;
 }
 
 /* Footer */
