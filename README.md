@@ -18,10 +18,15 @@ Local Bar is your one-stop destination for all things local nightlife. Designed 
 - __Footer__
 
   - The Footer is streamlined and adapts to mobile screens, featuring online social links and a logo. On desktop, it mirrors the navigation bar and offers a range of legal links.
+
+- __Landingpage__
+  - The Landingpage features a hero section with a captivating headline, a compelling call-to-action button, and an eye-catching background image that sets the tone for the user experience.
+  - Below the hero section, customer reviews are prominently displayed, providing social proof and building trust with potential customers.
+  - An "About Us" section provides a brief overview of the company, its mission, and its values, helping to establish a connection with the user.
+  - The layout and design of the Landingpage are optimized for both desktop and mobile devices, ensuring a seamless user experience across all platforms.
   
 ### Features Left to Implement
 
-- Landing page / Reviews / About us
 - Drinks page
 - Events page
 - Contact page / Form to own result page
@@ -54,5 +59,7 @@ The live link can be found here: https://p-harting.github.io/local-bar/
 - Design for hr element was taken from [CSSTricks](https://css-tricks.com/examples/hrs/)
 - All icons were taken from [Font Awesome](https://fontawesome.com/)
 - All fonts were taken from [Google Fonts](https://fonts.google.com/)
+- Overlaying images with a color was done with [Stackoverflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image) advice
+- For responsiveness using child elements, [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child) were used
 
 ### Media
