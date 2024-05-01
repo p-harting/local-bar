@@ -80,7 +80,7 @@ main {
     /* Main element takes up extra space */
     flex: 1 0 auto;
     /* Push main below the header */
-    margin-top: 57px;
+    margin-top: 71px;
 }
 
 .flex-main {
