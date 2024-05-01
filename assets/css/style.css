@@ -246,6 +246,10 @@ main {
 }
 
 /* Events */
+#events {
+    margin: 20px 10px;
+}
+
 #events > div:first-child {
     text-align: center;
 }
@@ -401,6 +405,41 @@ footer hr {
         margin-right: 20px;
         width: 50%;
         height: 500px;
+    }
+
+    /* Events */
+    .single-event {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .single-event-left {
+        width: 50%;
+    }
+
+    .first {
+        background: url("../images/event-first.webp") no-repeat center center / cover;
+        display: flex;
+        margin-right: 20px;
+        width: 40%;
+        height: 200px;
+    }
+
+    .mid {
+        background: url("../images/event-mid.webp") no-repeat center center / cover;
+        display: flex;
+        margin-right: 20px;
+        width: 40%;
+        height: 200px;
+    }
+
+    .last {
+        background: url("../images/event-last.webp") no-repeat center center / cover;
+        display: flex;
+        margin-right: 20px;
+        width: 40%;
+        height: 200px;
     }
 
     /* Footer */
