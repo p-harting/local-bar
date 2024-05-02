@@ -198,6 +198,37 @@ main {
     display: none;
 }
 
+/* Newsletter */
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 4px 40px 4px;
+}
+
+#newsletter-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fa-regular.fa-envelope {
+    color: #ffffff;
+    background-color: #B08969;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    font-size: 2em;
+    top: -25px;
+    transform: translateX(-50%);
+}
+
 /* Contact */
 #contact {
     background-color: #ffffff;
@@ -235,7 +266,7 @@ main {
     margin-right: 8px;
 }
 
-#contact-left form input[type="submit"] {
+input[type="submit"] {
     padding: 12px;
     background-color: #B08969;
     color: #ffffff;
