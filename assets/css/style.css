@@ -66,6 +66,23 @@ form * {
     color: #3a3a3a;
 }
 
+/* Animations */
+.zoom, .dye-dark, .dye-light {
+    transition: transform 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.dye-dark:hover {
+    color: #B08969;
+}
+
+.dye-light:hover {
+    color: #FFF8F1;
+}
+
 /* Header */
 header {
     background-color: #402E32;
@@ -98,6 +115,10 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 /* Nav toggle */
@@ -646,6 +667,7 @@ footer hr {
     .single-drink {
         min-height: 195px;
         align-items: center;
+        margin: 20px 20px;
     }
 
     /* Footer */
