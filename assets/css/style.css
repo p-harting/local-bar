@@ -266,6 +266,81 @@ main {
     display: none;
 }
 
+/* Drinks */
+#drinks h1{
+    text-align: center;
+}
+
+#drinks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-drink {
+    display: flex;
+    flex-direction: row;
+    max-width: 520px;
+    padding: 20px 10px;
+    margin: 10px 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.single-drink-left {
+    max-width: 75%;
+    padding-left: 10px;
+}
+
+.mojito {
+    background: url("../images/mojito.webp") no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
+.espresso-martini {
+    background: url("../images/espresso-martini.webp") no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
+.old-fashioned {
+    background: url("../images/old-fashioned.webp") no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
+.pina-colada {
+    background: url("../images/pina-colada.webp") no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
+.margarita {
+    background: url("../images/margarita.webp") no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
+.whiskey-sour {
+    background: url("../images/whiskey-sour.webp") no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
+.sangria {
+    background: url("../images/sangria.webp") no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
+.mint-julep {
+    background: url("../images/mint-julep.webp") no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
 /* Footer */
 footer {
     background-color: #B08969;
