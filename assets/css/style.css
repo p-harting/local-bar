@@ -520,6 +520,18 @@ footer hr {
         height: 200px;
     }
 
+    /* Drinks */
+    #drinks-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .single-drink {
+        min-height: 160px;
+        align-items: center;
+    }
+
     /* Footer */
     #footer-container {
         display: flex;
