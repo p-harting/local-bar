@@ -245,6 +245,24 @@ main {
     display: none;
 }
 
+/* Form confirmation */
+#form-confirmation {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-thumbs-up {
+    color: #ffffff;
+    background-color: #B08969;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 50%;
+    font-size: 4em;
+}
+
 /* Events */
 #events {
     margin: 20px 10px;
