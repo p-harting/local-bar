@@ -400,6 +400,16 @@ select {
     display: none;
 }
 
+#audio-player-container {
+    margin: 20px 0;
+}
+
+.audio-button {
+    color: #ffffff;
+    background: #402E32;
+    padding: 10px 10px;
+}
+
 /* Drinks */
 #drinks h1{
     text-align: center;

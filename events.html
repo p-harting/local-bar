@@ -48,11 +48,14 @@
                 <p class="gray-dark">Check out the latest events and specials at our beloved Local Bar. Join us for
                     unforgettable
                     experiences!</p>
+                <!-- Audio player -->
                 <div id="audio-player-container">
+                    <p class="big">Music to get in the mood:</p>
                     <audio id="audio_player" src="assets/audio/bar_brawl.mp3"></audio>
                     <div>
-                        <button onclick="playAudioWithVolume()"><i class="fa-solid fa-play"></i></button>
-                        <button onclick="document.getElementById('audio_player').pause()"><i
+                        <button class="audio-button" onclick="playAudioWithVolume()"><i
+                                class="fa-solid fa-play"></i></button>
+                        <button class="audio-button" onclick="document.getElementById('audio_player').pause()"><i
                                 class="fa-solid fa-pause"></i></button>
                     </div>
                 </div>
