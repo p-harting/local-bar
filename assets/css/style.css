@@ -422,7 +422,11 @@ select {
 }
 
 /* Drinks */
-#drinks h1 {
+#drinks {
+    margin: 20px 10px;
+}
+
+#drinks h1, #drinks p {
     text-align: center;
 }
 
