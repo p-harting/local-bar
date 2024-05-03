@@ -121,6 +121,12 @@ nav {
     text-decoration: underline;
 }
 
+#logo {
+    font-family: 'Playfair Display', sans-serif;
+    padding: 4px 0;
+    font-size: calc(29px + 0.2vw);
+}
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -168,7 +174,7 @@ main {
     flex-direction: column;
 }
 
-#hero-container button {
+.fake-button {
     background-color: #402E32;
     border: none;
     color: #ffffff;
@@ -507,7 +513,7 @@ footer hr {
         padding: 0 10%;
     }
 
-    #hero-container button {
+    .fake-button {
         margin-bottom: 0;
         margin-right: 20px;
     }
@@ -665,7 +671,7 @@ footer hr {
     #footer-navigation ul,
     #legal-links ul {
         list-style-type: none;
-        line-height: 26x;
+        line-height: 26px;
     }
 }
 
