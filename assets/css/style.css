@@ -53,12 +53,12 @@ form * {
 }
 
 .gray-light-bold {
-    color: #8f8f8f;
+    color: #6d6d6d;
     font-weight: 800;
 }
 
 .gray-light-italic {
-    color: #8f8f8f;
+    color: #6d6d6d;
     font-style: italic;
 }
 
@@ -76,7 +76,7 @@ form * {
 }
 
 .dye-dark:hover {
-    color: #B08969;
+    color: #402E32;
 }
 
 .dye-light:hover {
@@ -169,9 +169,9 @@ main {
 }
 
 #hero-container button {
-    background-color: #B08969;
+    background-color: #402E32;
     border: none;
-    color: white;
+    color: #ffffff;
     padding: 8px 12px;
     margin-bottom: 10px;
     text-align: center;
@@ -286,7 +286,7 @@ main {
 
 .fa-regular.fa-envelope {
     color: #ffffff;
-    background-color: #B08969;
+    background-color: #402E32;
     border-radius: 50%;
     padding: 10px;
     position: absolute;
@@ -338,7 +338,7 @@ main {
 
 input[type="submit"] {
     padding: 12px;
-    background-color: #B08969;
+    background-color: #402E32;
     color: #ffffff;
     border: none;
 }
@@ -366,7 +366,7 @@ select {
 
 .fa-thumbs-up {
     color: #ffffff;
-    background-color: #B08969;
+    background-color: #402E32;
     padding: 20px;
     margin: 10px 0;
     border-radius: 50%;
@@ -435,13 +435,13 @@ select {
 
 /* Footer */
 footer {
-    background-color: #B08969;
-    color: #3a3a3a;
+    background-color: #402E32;
+    color: #ffffff;
     padding: 20px 20px;
 }
 
 footer a {
-    color: #3a3a3a;
+    color: #ffffff;
     text-decoration: none;
 }
 
