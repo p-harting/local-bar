@@ -45,15 +45,25 @@
             <div>
                 <p class="gray-dark big">Welcome to Local Bar Events!</p>
                 <h1>Exciting Happenings at Local Bar</h1>
-                <p class="gray-dark">Check out the latest events and specials at our beloved Local Bar. Join us for unforgettable
+                <p class="gray-dark">Check out the latest events and specials at our beloved Local Bar. Join us for
+                    unforgettable
                     experiences!</p>
+                <div id="audio-player-container">
+                    <audio id="audio_player" src="assets/audio/bar_brawl.mp3"></audio>
+                    <div>
+                        <button onclick="playAudioWithVolume()"><i class="fa-solid fa-play"></i></button>
+                        <button onclick="document.getElementById('audio_player').pause()"><i
+                                class="fa-solid fa-pause"></i></button>
+                    </div>
+                </div>
             </div>
             <div id="event-container">
                 <div class="single-event zoom">
                     <div class="single-event-left">
                         <p class="gray-light-bold">01.01.2025</p>
                         <h2>New Year's Bash</h2>
-                        <p class="gray-dark big">Celebrate the arrival of 2025 with us! Enjoy live music, delicious drinks, and a vibrant
+                        <p class="gray-dark big">Celebrate the arrival of 2025 with us! Enjoy live music, delicious
+                            drinks, and a vibrant
                             atmosphere.</p>
                     </div>
                     <div class="single-event-right first"></div>
@@ -62,7 +72,8 @@
                     <div class="single-event-left">
                         <p class="gray-light-bold">15.01.2025</p>
                         <h2>Trivia Night</h2>
-                        <p class="gray-dark big">Put your knowledge to the test at our weekly trivia night! Prizes, fun, and friendly
+                        <p class="gray-dark big">Put your knowledge to the test at our weekly trivia night! Prizes, fun,
+                            and friendly
                             competition await.</p>
                     </div>
                     <div class="single-event-right mid"></div>
@@ -71,7 +82,8 @@
                     <div class="single-event-left">
                         <p class="gray-light-bold">30.01.2025</p>
                         <h2>Live Music Showcase</h2>
-                        <p class="gray-dark big">Experience the best local talent on our stage! Join us for a night of unforgettable
+                        <p class="gray-dark big">Experience the best local talent on our stage! Join us for a night of
+                            unforgettable
                             performances and great vibes.</p>
                     </div>
                     <div class="single-event-right last"></div>
@@ -130,6 +142,15 @@
             <p>©2024 Local Bar - All rights reserved</p>
         </div>
     </footer>
+
+    <!-- Audio Player -->
+    <script>
+        function playAudioWithVolume() {
+            var audioPlayer = document.getElementById('audio_player');
+            audioPlayer.volume = 0.2;
+            audioPlayer.play();
+        }
+    </script>
 
     <!-- Font awesome import -->
     <script src="https://kit.fontawesome.com/1d63fa792f.js" crossorigin="anonymous"></script>
