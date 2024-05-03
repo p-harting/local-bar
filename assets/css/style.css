@@ -246,7 +246,12 @@ main {
     width: 100%;
     height: 200px;
     margin: 20px auto;
-    background: url("../images/about-us.webp") no-repeat center center / cover;
+}
+
+#about-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #about-right {
@@ -418,54 +423,14 @@ select {
 
 .single-drink-right {
     margin: auto 0;
-}
-
-.mojito {
-    background: url("../images/mojito.webp") no-repeat center center / cover;
     width: 100px;
     height: 100px;
 }
 
-.espresso-martini {
-    background: url("../images/espresso-martini.webp") no-repeat center center / cover;
-    width: 100px;
-    height: 100px;
-}
-
-.old-fashioned {
-    background: url("../images/old-fashioned.webp") no-repeat center center / cover;
-    width: 100px;
-    height: 100px;
-}
-
-.pina-colada {
-    background: url("../images/pina-colada.webp") no-repeat center center / cover;
-    width: 100px;
-    height: 100px;
-}
-
-.margarita {
-    background: url("../images/margarita.webp") no-repeat center center / cover;
-    width: 100px;
-    height: 100px;
-}
-
-.whiskey-sour {
-    background: url("../images/whiskey-sour.webp") no-repeat center center / cover;
-    width: 100px;
-    height: 100px;
-}
-
-.sangria {
-    background: url("../images/sangria.webp") no-repeat center center / cover;
-    width: 100px;
-    height: 100px;
-}
-
-.mint-julep {
-    background: url("../images/mint-julep.webp") no-repeat center center / cover;
-    width: 100px;
-    height: 100px;
+.single-drink-right > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Footer */
