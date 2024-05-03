@@ -77,7 +77,9 @@ form * {
 }
 
 /* Animations */
-.zoom, .dye-dark, .dye-light {
+.zoom,
+.dye-dark,
+.dye-light {
     transition: transform 0.3s;
 }
 
@@ -340,7 +342,7 @@ main {
 #contact-left form div {
     display: flex;
     align-items: center;
-} 
+}
 
 #contact-left form label {
     width: auto;
@@ -393,7 +395,7 @@ select {
     margin: 20px 10px;
 }
 
-#events > div:first-child {
+#events>div:first-child {
     text-align: center;
 }
 
@@ -420,7 +422,7 @@ select {
 }
 
 /* Drinks */
-#drinks h1{
+#drinks h1 {
     text-align: center;
 }
 
@@ -452,7 +454,7 @@ select {
     height: 100px;
 }
 
-.single-drink-right > img {
+.single-drink-right>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -485,6 +487,15 @@ select {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
+}
+
+/* Legal */
+.legal-page {
+    padding: 20px 10px;
+}
+
+.legal-page a {
+    color: var(--dark-brown);
 }
 
 /* Footer */
@@ -689,6 +700,12 @@ footer hr {
         margin: 20px 20px;
     }
 
+    /* Legal */
+    .legal-page {
+        max-width: 900px;
+        margin: auto;
+    }
+
     /* Footer */
     #footer-container {
         display: flex;
@@ -742,8 +759,8 @@ footer hr {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; 
-        margin: auto; 
+        justify-content: center;
+        margin: auto;
         max-width: 1100px;
     }
 
