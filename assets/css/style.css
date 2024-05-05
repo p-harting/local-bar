@@ -436,6 +436,10 @@ select {
     align-items: center;
 }
 
+#drinks-container p {
+    text-align: left;
+}
+
 .single-drink {
     display: flex;
     flex-direction: row;
@@ -458,7 +462,7 @@ select {
     height: 100px;
 }
 
-.single-drink-right>img {
+.single-drink-right > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
