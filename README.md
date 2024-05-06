@@ -75,6 +75,22 @@ For this project, I've incorporated Playfair Display and Lato fonts sourced from
 - Playfair Display is employed for the page logo and headings.
 - Lato is utilized for the menu and body text.
 
+## Project Rationale
+Local Bar, the establishment, inspired the development of this project with the goal of providing patrons and potential visitors with easy access to essential information about the venue and its offerings. The key project goals and target audience include:
+
+### Key Project Goals:
+- **Enhancing Visitor Experience:** The primary objective is to create a digital platform that mirrors the welcoming ambiance and convenience of the physical bar, offering patrons an engaging and informative online experience.
+- **Promoting Local Business:** By showcasing the unique atmosphere, events, and drinks available at Local Bar, the project aims to support the local economy and foster community engagement.
+- **Accessibility:** It's imperative to ensure that the website is accessible to all users, including those with disabilities, by implementing responsive design and adhering to web accessibility standards.
+
+### Target Audience:
+The target audience for the Local Bar website comprises:
+- **Regular Patrons:** Individuals who frequent Local Bar and want quick access to information about upcoming events, drink specials, and other updates.
+- **Potential Visitors:** Those who are considering visiting Local Bar for the first time and want to learn more about what the establishment has to offer.
+- **Local Community Members:** Residents of the neighborhood interested in supporting local businesses and staying informed about community events and initiatives.
+
+By catering to the needs of these groups, the Local Bar website aims to serve as a valuable resource for both loyal patrons and newcomers alike, fostering a sense of community and belonging.
+
 ## Features
 ### Navigation Bar
 ![Navigation bar](assets/docs/features/header.png)
