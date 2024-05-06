@@ -3,10 +3,52 @@
 Local Bar is your one-stop destination for all things local nightlife. Designed to enhance your experience, our website provides a hassle-free platform for exploring your favorite neighborhood bar. Whether you're a regular or a first-time visitor, Local Bar offers an easy-to-navigate homepage, a comprehensive drinks page, an event calendar, and a convenient contact section.
 
 ## Contents
+* [UX](#ux)
+  * [Wireframes](#wireframes)
+    * [Landingpage](#landingpage)
+    * [Events Page](#events-page)
+    * [Drinks Page](#drinks-page)
+    * [Contact Page](#contact-page)
+  * [Color Palette](#color-palette)
+  * [Fonts](#fonts)
+* [Features](#features)
+  * [Navigation Bar](#navigation-bar)
+  * [Footer](#footer)
+  * [Landing Page](#landing-page)
+    * [Hero](#hero)
+    * [Reviews](#reviews)
+    * [About Us](#about-us)
+    * [Newsletter](#newsletter)
+  * [Events Page](#events-page)
+    * [Hero With Audio Player](#hero-with-audio-player)
+    * [List Of Events](#list-of-events)
+  * [Drinks Page](#drinks-page)
+  * [Contact Page](#contact-page)
+  * [404 Page](#404-page)
+* [Responsive Design](#responsive-design)
+* [Testing](#testing)
+  * [Manual Testing](#manual-testing)
+  * [Validator Testing](#validator-testing)
+  * [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgments](#acknowledgments)
+
 
 ## UX
 
 ### Wireframes
+Wireframes play a crucial role in the development process, providing a visual guide for the layout and structure of each webpage. They serve as blueprints, outlining the placement of key elements such as navigation bars, content sections, and footer areas.
+
+For the Local Bar website, wireframes were meticulously crafted to ensure an intuitive and user-friendly interface across all devices. Each wireframe represents a unique page, from the captivating landing page to the informative events and drinks pages.
+#### Landingpage
+![Wireframe of landingpage](assets/docs/ux/landing-wireframe.png)
+#### Events Page
+![Wireframe of events page](assets/docs/ux/events-wireframe.png)
+#### Drinks Page
+![Wireframe of drinks page](assets/docs/ux/drinks-wireframe.png)
+#### Contact Page
+![Wireframe of contact page](assets/docs/ux/contact-wireframe.png)
 
 ### Color Palette
 ![Accessible color palette](assets/docs/ux/colour-palette.png)
@@ -28,6 +70,11 @@ Mid gray is utilized for shadows and subtle design elements, adding depth and di
 As the darkest shade in the palette, dark gray is employed sparingly for text and UI elements where emphasis and contrast are needed. Its deep tone adds a touch of sophistication and sharpness to key components, guiding users' attention and improving usability.
 
 In essence, this color palette reflects the ambiance of a local bar, where patrons can unwind and socialize in a comfortable and inviting environment.
+
+### Fonts
+For this project, I've incorporated Playfair Display and Lato fonts sourced from Google Fonts. The font sizes are dynamically adjusted for responsive design.
+- Playfair Display is employed for the page logo and headings.
+- Lato is utilized for the menu and body text.
 
 ## Features
 
@@ -75,7 +122,11 @@ The layout and design of the Landingpage are optimized for both desktop and mobi
 ![404 page](assets/docs/features/404.png)
 - A custom 404 error page provides users with a friendly and informative message in case they encounter a broken link or unavailable page during their browsing experience.
 
+## Responsive Design
+
 ## Testing
+
+### Manual Testing
 
 ### Validator Testing
 
