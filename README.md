@@ -30,12 +30,16 @@ Local Bar is your one-stop destination for all things local nightlife. Designed 
   * [Manual Testing](#manual-testing)
   * [Functional Testing](#functional-testing)
   * [Validator Testing](#validator-testing)
+  * [Accessibility Testing](#accessibility-testing)
   * [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
 
 ## UX
+Wireframes were meticulously crafted using [Figma](https://www.figma.com/), leveraging its versatile design capabilities and collaborative features.
+
+The color palette was thoughtfully created using [Canva](https://www.canva.com/), ensuring that the chosen colors resonate with the brand identity and evoke the desired ambiance for the Local Bar website.
 ### Wireframes
 Wireframes play a crucial role in the development process, providing a visual guide for the layout and structure of each webpage. They serve as blueprints, outlining the placement of key elements such as navigation bars, content sections, and footer areas.
 
@@ -137,9 +141,12 @@ The layout and design of the Landingpage are optimized for both desktop and mobi
 - A custom 404 error page provides users with a friendly and informative message in case they encounter a broken link or unavailable page during their browsing experience.
 
 ## Responsive Design
+- All images on the website are optimized to ensure fast loading times across various devices and screen sizes.
+- Flexbox layout is extensively utilized throughout the website, allowing for dynamic arrangement of elements and optimal use of available space.
+- Text size and spacing are calculated responsively, adjusting based on the screen size and resolution to ensure readability and visual appeal.
+- Media queries are strategically implemented to adapt the layout and design elements for different screen sizes, guaranteeing a consistent and user-friendly experience across desktops, tablets, and mobile devices.
 
 ## Testing
-
 ### Manual Testing
 For the thorough evaluation of the website's functionality, I conducted a series of manual tests across various platforms and devices. 
 
@@ -153,7 +160,6 @@ For the thorough evaluation of the website's functionality, I conducted a series
 These rigorous tests ensure a seamless user experience across various platforms and devices.
 
 ### Functional Testing
-
 | Action                                                                                         | Expected Behavior                                                                                            | Passed or Failed |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------|
 | Click on the "Home" link in the navigation                                                     | The homepage should load                                                                                    | Passed           |
@@ -171,17 +177,21 @@ These rigorous tests ensure a seamless user experience across various platforms 
 
 ### Validator Testing
 #### HTML
-![404 page](assets/docs/testing/html.png)
+![HTML validator result](assets/docs/testing/html.png)
 - No errors were detected on any page through the W3C HTML Validator.
 #### CSS
-![404 page](assets/docs/testing/css.png)
+![CSS validator result](assets/docs/testing/css.png)
 - The W3C CSS Validator found no errors in the stylesheet.
 #### Lighthouse
-![404 page](assets/docs/testing/lighthouse.png)
+![Lighthouse result](assets/docs/testing/lighthouse.png)
 - After using the Chrome Lighthouse tool, I obtained good scores across performance, accessibility, best practices, and SEO.
 
+### Accessibility Testing
+To ensure optimal accessibility for all users, extensive color contrast testing was conducted using the [Coolors Contrast Checker](https://coolors.co/). The following images illustrate the results of the color contrast tests:
+![Test of color contrast header](assets/docs/testing/header-colors.png)
+![Test of color contrast main](assets/docs/testing/main-colors.png)
+These tests aimed to verify that text elements across the website maintain sufficient contrast against their respective backgrounds, thus ensuring readability and usability for individuals with visual impairments.
 ### Bugs
-
 - [✔] Mobile footer is too big because of hidden right side
 - [✔] White line between navigation and main because of wrong margin
 - [✔] Mobile menu not opening because of open paragraph in index.html
