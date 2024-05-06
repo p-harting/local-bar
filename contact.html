@@ -45,23 +45,24 @@
                 <h1>Let's talk!</h1>
                 <p>Do you have a party in mind? We're all ears.</p>
                 <form method="get" action="form-confirmation.html">
-                    <label for="firstname">Firstname</label>
+                    <label for="firstname">Firstname<span class="red">*</span></label>
                     <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname" required>
-                    <label for="lastname">Lastname</label>
+                    <label for="lastname">Lastname<span class="red">*</span></label>
                     <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname" required>
-                    <label for="email">Email</label>
+                    <label for="email">Email<span class="red">*</span></label>
                     <input type="email" id="email" name="email" placeholder="Enter your email" required>
                     <label for="source">How did you find us?</label>
                     <select id="source" name="source">
+                        <option value="google">No answer</option>
                         <option value="google">Google</option>
                         <option value="facebook">Facebook</option>
                         <option value="friends">Friends</option>
                     </select>
                     <label for="idea">Tell us about your idea</label>
-                    <textarea id="idea" name="idea" placeholder="What would you like to do?" required></textarea>
+                    <textarea id="idea" name="idea" placeholder="What would you like to do?"></textarea>
                     <div>
                         <input type="checkbox" name="terms" id="terms" required>
-                        <label for="terms">I have read and accept the Terms & Conditions and Privacy Policy</label>
+                        <label for="terms">I have read and accept the Terms & Conditions and Privacy Policy<span class="red">*</span></label>
                     </div>
                     <input type="submit" value="Submit">
                 </form>

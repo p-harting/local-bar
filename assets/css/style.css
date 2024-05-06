@@ -76,6 +76,10 @@ form * {
     color: var(--dark-gray);
 }
 
+.red {
+    color: red;
+}
+
 /* Animations */
 .zoom,
 .dye-dark,
