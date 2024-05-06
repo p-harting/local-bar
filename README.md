@@ -28,15 +28,14 @@ Local Bar is your one-stop destination for all things local nightlife. Designed 
 * [Responsive Design](#responsive-design)
 * [Testing](#testing)
   * [Manual Testing](#manual-testing)
+  * [Functional Testing](#functional-testing)
   * [Validator Testing](#validator-testing)
   * [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
 
-
 ## UX
-
 ### Wireframes
 Wireframes play a crucial role in the development process, providing a visual guide for the layout and structure of each webpage. They serve as blueprints, outlining the placement of key elements such as navigation bars, content sections, and footer areas.
 
@@ -77,7 +76,6 @@ For this project, I've incorporated Playfair Display and Lato fonts sourced from
 - Lato is utilized for the menu and body text.
 
 ## Features
-
 ### Navigation Bar
 ![Navigation bar](assets/docs/features/header.png)
 - Included on all pages, the responsive navigation bar includes links to the Homepage, Drinks, Events and Contact page and is identical on each page
@@ -127,8 +125,44 @@ The layout and design of the Landingpage are optimized for both desktop and mobi
 ## Testing
 
 ### Manual Testing
+For the thorough evaluation of the website's functionality, I conducted a series of manual tests across various platforms and devices. 
+
+- **Desktop Testing:** Verified compatibility using Chrome, Firefox, and Edge browsers on a Windows computer.
+- **Mobile Testing (Android):** Ensured responsiveness and functionality with Chrome and Firefox browsers on an Android device.
+- **Mobile Testing (iOS):** Tested compatibility and performance using Safari on an iOS device.
+- **User Feedback:** Solicited input from multiple users to assess website functionality across different devices and gather valuable feedback on user experience.
+- **Link Verification:** Manually inspected all internal and external links to ensure they direct users accurately.
+- **Contact Form Validation:** Confirmed that the contact form functions as intended, requiring valid inputs for submission.
+
+These rigorous tests ensure a seamless user experience across various platforms and devices.
+
+### Functional Testing
+
+| Action                                                                                         | Expected Behavior                                                                                            | Passed or Failed |
+|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------|
+| Click on the "Home" link in the navigation                                                     | The homepage should load                                                                                    | Passed           |
+| Click on the "Drinks" link in the navigation                                                   | The drinks page should load                                                                                 | Passed           |
+| Click on the "Events" link in the navigation                                                   | The events page should load                                                                                 | Passed           |
+| Click on the "Contact Us" link in the navigation                                               | The contact page should load                                                                                | Passed           |
+| Fill out the contact form with invalid inputs                                                   | Error messages should be displayed indicating invalid input                                                   | Passed           |
+| Fill out the contact form with valid inputs and submit it                                       | A confirmation page should be displayed indicating successful submission                                    | Passed           |
+| Verify that all content is displayed correctly on each page                                     | All content should be displayed properly                                                                     | Passed           |
+| Click on the social media links in the footer                                                   | The respective social media pages should open in a new tab                                                  | Passed           |
+| Play the audio player on the events page                                                        | The audio file should play                                                                                   | Passed           |
+| Pause the audio player                                                                          | The audio playback should pause                                                                               | Passed           |
+| Enter a valid email address in the newsletter form                                             | No error message should be displayed                                                                        | Passed           |
+| Enter an invalid email address in the newsletter form                                           | An error message should be displayed indicating invalid email address                                       | Passed           |
 
 ### Validator Testing
+#### HTML
+![404 page](assets/docs/testing/html.png)
+- No errors were detected on any page through the W3C HTML Validator.
+#### CSS
+![404 page](assets/docs/testing/css.png)
+- The W3C CSS Validator found no errors in the stylesheet.
+#### Lighthouse
+![404 page](assets/docs/testing/lighthouse.png)
+- After using the Chrome Lighthouse tool, I obtained good scores across performance, accessibility, best practices, and SEO.
 
 ### Bugs
 
@@ -137,7 +171,6 @@ The layout and design of the Landingpage are optimized for both desktop and mobi
 - [✔] Mobile menu not opening because of open paragraph in index.html
 
 ## Deployment
-
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -148,7 +181,6 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here: https://p-harting.github.io/local-bar/
 
 ## Credits
-
 - Instructions on how to implement a responsive navigation bar were adapted from tutorials by Love Running.
 - The design for the `<hr>` element was inspired by [CSSTricks](https://css-tricks.com/examples/hrs/).
 - Icons used throughout the website were sourced from [Font Awesome](https://fontawesome.com/).
@@ -164,3 +196,6 @@ The live link can be found here: https://p-harting.github.io/local-bar/
 - A custom 404 error page was created following the instructions provided by [GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
 
 ## Acknowledgments
+I would like to express my gratitude to my mentor, Dick Vlaanderen, whose guidance and support have been invaluable throughout the development of these projects. Your expertise and encouragement have greatly contributed to my growth as a developer.
+
+I also want to extend my appreciation to Kristyna Wach, our Cohort Facilitator, for her continuous assistance and dedication to fostering a collaborative learning environment. Your insights and feedback have been instrumental in shaping my learning journey.
