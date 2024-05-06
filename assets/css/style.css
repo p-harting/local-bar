@@ -160,10 +160,8 @@ nav {
 main {
     background-color: var(--warm-white);
     color: var(--dark-gray);
-    /* Main element takes up extra space */
     flex: 1 0 auto;
-    /* Push main below the header */
-    margin-top: 69px;
+    margin-top: 67px;
 }
 
 .flex-main {
@@ -581,6 +579,11 @@ footer hr {
         display: none;
     }
 
+    /* Main content */
+    main {
+        margin-top: 69px;
+    }
+
     /* Hero */
     #hero-container {
         padding: 0 10%;
@@ -756,6 +759,11 @@ footer hr {
 
 /* Media query: desktop */
 @media screen and (min-width: 992px) {
+
+    /* Main content */
+    main {
+        margin-top: 70px;
+    }
 
     /* Reviews */
     #review-container .review:nth-last-child(-n+2) {
