@@ -1,35 +1,79 @@
 # Local Bar
-
+![Local Bar Website shown on a range of devices](assets/docs/mockup.png)
 Local Bar is your one-stop destination for all things local nightlife. Designed to enhance your experience, our website provides a hassle-free platform for exploring your favorite neighborhood bar. Whether you're a regular or a first-time visitor, Local Bar offers an easy-to-navigate homepage, a comprehensive drinks page, an event calendar, and a convenient contact section.
 
-## Wireframe
+## Contents
 
-## Color Palette 
+## UX
+
+### Wireframes
+
+### Color Palette
+![Accessible color palette](assets/docs/ux/colour-palette.png)
+For the Local Bar website, a carefully curated color palette has been selected to evoke the ambiance and energy of a neighborhood bar.
+
+- Dark Brown: #402E32
+The rich, deep hue of dark brown serves as the main accent color, symbolizing the warmth and inviting atmosphere typical of a local bar. This color choice exudes sophistication and hints at the rich tones found in aged spirits, creating a sense of tradition and authenticity.
+
+- Warm White: #FFF8F1
+The background color, warm white, envelops the website with a welcoming glow, reminiscent of soft lighting in a dimly lit bar. This choice creates a comfortable backdrop for content, ensuring readability and allowing other elements to stand out.
+
+- Light Gray: #D3D3D3
+Light gray adds a subtle touch of elegance and professionalism to text elements throughout the website. It complements the dark brown accent color while providing contrast against the warm white background, enhancing readability and visual hierarchy.
+
+- Mid Gray: #6D6D6D
+Mid gray is utilized for shadows and subtle design elements, adding depth and dimension to the website's layout. Its neutral tone ensures that shadows blend seamlessly with the overall color scheme, enhancing visual appeal without overpowering other elements.
+
+- Dark Gray: #3A3A3A
+As the darkest shade in the palette, dark gray is employed sparingly for text and UI elements where emphasis and contrast are needed. Its deep tone adds a touch of sophistication and sharpness to key components, guiding users' attention and improving usability.
+
+In essence, this color palette reflects the ambiance of a local bar, where patrons can unwind and socialize in a comfortable and inviting environment.
 
 ## Features
 
-### Existing Features
+### Navigation Bar
+![Navigation bar](assets/docs/features/header.png)
+- Included on all pages, the responsive navigation bar includes links to the Homepage, Drinks, Events and Contact page and is identical on each page
+- This feature will enable the user to effortlessly move between pages on any device
 
-- __Navigation Bar__
+### Footer
+![Footer](assets/docs/features/footer.png)
+- The footer is streamlined and adapts to mobile screens, featuring online social links and a logo. On desktop, it mirrors the navigation bar and offers a range of legal links.
 
-  - Included on all pages, the responsive navigation bar includes links to the Homepage, Drinks, Events and Contact page and is identical on each page
-  - This feature will enable the user to effortlessly move between pages on any device
+### Landingpage
+The layout and design of the Landingpage are optimized for both desktop and mobile devices, ensuring a seamless user experience across all platforms.
+#### Hero
+![Hero section on index page](assets/docs/features/hero.png)
+- The landingpage features a hero section with a captivating headline, a compelling call-to-action button, and an eye-catching background image that sets the tone for the user experience.
+#### Reviews
+![Review section](assets/docs/features/reviews.png)
+- Below the hero section, customer reviews are prominently displayed, providing social proof and building trust with potential customers.
+#### About Us
+![About us section](assets/docs/features/about-us.png)
+- An about us section provides a brief overview of the company, its mission, and its values, helping to establish a connection with the user.
+#### Newsletter
+![Newsletter form](assets/docs/features/newsletter.png)
+- A newsletter signup form provides a quick way to opt in to stay up to date about discounts and events.
 
-- __Footer__
+### Events Page
+#### Hero With Audio Player
+![Hero on events page](assets/docs/features/events-hero.png)
+- Users can enjoy a dynamic experience with an integrated audio player on the Events page, enhancing the atmosphere and providing a preview of the music selection for each event.
+#### List Of Events
+![List of events on events page](assets/docs/features/events.png)
+- The events page showcases upcoming events at Local Bar, providing details such as event dates, titles, and descriptions.
 
-  - The Footer is streamlined and adapts to mobile screens, featuring online social links and a logo. On desktop, it mirrors the navigation bar and offers a range of legal links.
+### Drinks Page
+![List of drinks on drinks page](assets/docs/features/drinks.png)
+- The drinks page showcases a variety of beverages available at Local Bar, with descriptions, pricing and images generated using SDXL from Stability AI, offering users an enticing preview of the offerings.
 
-- __Landingpage__
-  - The Landingpage features a hero section with a captivating headline, a compelling call-to-action button, and an eye-catching background image that sets the tone for the user experience.
-  - Below the hero section, customer reviews are prominently displayed, providing social proof and building trust with potential customers.
-  - An "About Us" section provides a brief overview of the company, its mission, and its values, helping to establish a connection with the user.
-  - The layout and design of the Landingpage are optimized for both desktop and mobile devices, ensuring a seamless user experience across all platforms.
-  
-### Features Left to Implement
+### Contact Page
+![Contact us page](assets/docs/features/contact.png)
+- The Contact page provides users with a convenient form to reach out to Local Bar for inquiries, reservations, or feedback. Submissions are directed to a dedicated result page for further processing.
 
-- Drinks page
-- Events page
-- Contact page / Form to own result page
+### 404 Page
+![404 page](assets/docs/features/404.png)
+- A custom 404 error page provides users with a friendly and informative message in case they encounter a broken link or unavailable page during their browsing experience.
 
 ## Testing
 
@@ -38,7 +82,8 @@ Local Bar is your one-stop destination for all things local nightlife. Designed 
 ### Bugs
 
 - [✔] Mobile footer is too big because of hidden right side
-- 
+- [✔] White line between navigation and main because of wrong margin
+- [✔] Mobile menu not opening because of open paragraph in index.html
 
 ## Deployment
 
@@ -53,13 +98,18 @@ The live link can be found here: https://p-harting.github.io/local-bar/
 
 ## Credits
 
-### Content
+- Instructions on how to implement a responsive navigation bar were adapted from tutorials by Love Running.
+- The design for the `<hr>` element was inspired by [CSSTricks](https://css-tricks.com/examples/hrs/).
+- Icons used throughout the website were sourced from [Font Awesome](https://fontawesome.com/).
+- All fonts utilized in the project were obtained from [Google Fonts](https://fonts.google.com/).
+- Techniques for overlaying images with a color were implemented based on advice found on [Stack Overflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image).
+- Responsiveness using child elements was achieved with reference to documentation on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child).
+- Implementation of positioning elements was guided by documentation on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/position).
+- Images of drinks were generated using SDXL from [Stability AI](https://stability.ai/stable-image).
+- Responsive font size calculations were inspired by techniques outlined by Matthew James Taylor on [his website](https://matthewjamestaylor.com/responsive-font-size).
+- Root colors were defined with reference to information provided by [W3Schools](https://www.w3schools.com/css/css3_variables.asp).
+- An audio player was integrated into the website using HTML `<audio>` elements, with guidance from documentation on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
+- Background music for the website was sourced from [FreePD](https://freepd.com/upbeat.php), specifically the track "Bar Brawl".
+- A custom 404 error page was created following the instructions provided by [GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
 
-- Instructions on how to implement a resposive navigation bar was taken from the love running tutorials
-- Design for hr element was taken from [CSSTricks](https://css-tricks.com/examples/hrs/)
-- All icons were taken from [Font Awesome](https://fontawesome.com/)
-- All fonts were taken from [Google Fonts](https://fonts.google.com/)
-- Overlaying images with a color was done with [Stackoverflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image) advice
-- For responsiveness using child elements, [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child) were used
-
-### Media
+## Acknowledgments
