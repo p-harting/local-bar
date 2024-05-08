@@ -2,6 +2,8 @@
 ![Local Bar Website shown on a range of devices](assets/docs/mockup.png)
 Local Bar is your one-stop destination for all things local nightlife. Designed to enhance your experience, our website provides a hassle-free platform for exploring your favorite neighborhood bar. Whether you're a regular or a first-time visitor, Local Bar offers an easy-to-navigate homepage, a comprehensive drinks page, an event calendar, and a convenient contact section.
 
+## [Click to view the live website](https://p-harting.github.io/local-bar/)
+
 ## Contents
 * [UX](#ux)
   * [Wireframes](#wireframes)
@@ -185,6 +187,12 @@ These rigorous tests ensure a seamless user experience across various platforms 
 #### Lighthouse
 ![Lighthouse result](assets/docs/testing/lighthouse.png)
 - After using the Chrome Lighthouse tool, I obtained good scores across performance, accessibility, best practices, and SEO.
+
+- I could minimize unused CSS and streamline my project by leveraging Font Awesome Pro's feature that allows selective importing of icons. By importing only the icons I need, I can significantly reduce CSS file sizes and optimize performance. It's important to note that a Font Awesome Pro plan is required to access this functionality.
+
+- I implemented lazy loading for images by adding the loading="lazy" attribute to the <img> tag. This helps improve page loading times by deferring the loading of images until they are about to come into view, reducing the initial load time of the webpage.
+
+- However, I recognize that lazy loading can be further optimized, especially for background images. While JavaScript can be employed to implement more sophisticated lazy loading techniques for background images, such as dynamically loading them based on user interactions or viewport visibility, I opted not to include JavaScript in this HTML/CSS project to keep the implementation simple and lightweight.
 
 ### Accessibility Testing
 To ensure optimal accessibility for all users, extensive color contrast testing was conducted using the [Coolors Contrast Checker](https://coolors.co/). The following images illustrate the results of the color contrast tests:
