@@ -44,7 +44,7 @@ The color palette was thoughtfully created using [Canva](https://www.canva.com/)
 Wireframes play a crucial role in the development process, providing a visual guide for the layout and structure of each webpage. They serve as blueprints, outlining the placement of key elements such as navigation bars, content sections, and footer areas.
 
 For the Local Bar website, wireframes were meticulously crafted to ensure an intuitive and user-friendly interface across all devices. Each wireframe represents a unique page, from the captivating landing page to the informative events and drinks pages.
-#### Landingpage
+#### Landing page
 ![Wireframe of landingpage](assets/docs/ux/landing-wireframe.png)
 #### Events Page
 ![Wireframe of events page](assets/docs/ux/events-wireframe.png)
@@ -67,7 +67,7 @@ The background color, warm white, envelops the website with a welcoming glow, re
 Light gray adds a subtle touch of elegance and professionalism to text elements throughout the website. It complements the dark brown accent color while providing contrast against the warm white background, enhancing readability and visual hierarchy.
 
 - Mid Gray: #6D6D6D
-Mid gray is utilized for shadows and subtle design elements, adding depth and dimension to the website's layout. Its neutral tone ensures that shadows blend seamlessly with the overall color scheme, enhancing visual appeal without overpowering other elements.
+Mid-gray is utilized for shadows and subtle design elements, adding depth and dimension to the website's layout. Its neutral tone ensures that shadows blend seamlessly with the overall color scheme, enhancing visual appeal without overpowering other elements.
 
 - Dark Gray: #3A3A3A
 As the darkest shade in the palette, dark gray is employed sparingly for text and UI elements where emphasis and contrast are needed. Its deep tone adds a touch of sophistication and sharpness to key components, guiding users' attention and improving usability.
@@ -80,7 +80,7 @@ For this project, I've incorporated Playfair Display and Lato fonts sourced from
 - Lato is utilized for the menu and body text.
 
 ## Project Rationale
-Local Bar, the establishment, inspired the development of this project with the goal of providing patrons and potential visitors with easy access to essential information about the venue and its offerings. The key project goals and target audience include:
+Local Bar, the establishment, inspired the development of this project to provide patrons and potential visitors with easy access to essential information about the venue and its offerings. The key project goals and target audience include:
 
 ### Key Project Goals:
 - **Enhancing Visitor Experience:** The primary objective is to create a digital platform that mirrors the welcoming ambiance and convenience of the physical bar, offering patrons an engaging and informative online experience.
@@ -98,18 +98,18 @@ By catering to the needs of these groups, the Local Bar website aims to serve as
 ## Features
 ### Navigation Bar
 ![Navigation bar](assets/docs/features/header.png)
-- Included on all pages, the responsive navigation bar includes links to the Homepage, Drinks, Events and Contact page and is identical on each page
+- Included on all pages, the responsive navigation bar includes links to the Homepage, Drinks, Events, and Contact page and is identical on each page
 - This feature will enable the user to effortlessly move between pages on any device
 
 ### Footer
 ![Footer](assets/docs/features/footer.png)
-- The footer is streamlined and adapts to mobile screens, featuring online social links and a logo. On desktop, it mirrors the navigation bar and offers a range of legal links.
+- The footer is streamlined and adapts to mobile screens, featuring online social links and a logo. On the desktop, it mirrors the navigation bar and offers a range of legal links.
 
-### Landingpage
-The layout and design of the Landingpage are optimized for both desktop and mobile devices, ensuring a seamless user experience across all platforms.
+### Landing page
+The layout and design of the landing page are optimized for both desktop and mobile devices, ensuring a seamless user experience across all platforms.
 #### Hero
 ![Hero section on index page](assets/docs/features/hero.png)
-- The landingpage features a hero section with a captivating headline, a compelling call-to-action button, and an eye-catching background image that sets the tone for the user experience.
+- The landing page features a hero section with a captivating headline, a compelling call-to-action button, and an eye-catching background image that sets the tone for the user experience.
 #### Reviews
 ![Review section](assets/docs/features/reviews.png)
 - Below the hero section, customer reviews are prominently displayed, providing social proof and building trust with potential customers.
@@ -130,7 +130,7 @@ The layout and design of the Landingpage are optimized for both desktop and mobi
 
 ### Drinks Page
 ![List of drinks on drinks page](assets/docs/features/drinks.png)
-- The drinks page showcases a variety of beverages available at Local Bar, with descriptions, pricing and images generated using SDXL from Stability AI, offering users an enticing preview of the offerings.
+- The drinks page showcases a variety of beverages available at Local Bar, with descriptions, pricing, and images generated using SDXL from Stability AI, offering users an enticing preview of the offerings.
 
 ### Contact Page
 ![Contact us page](assets/docs/features/contact.png)
@@ -148,7 +148,7 @@ The layout and design of the Landingpage are optimized for both desktop and mobi
 
 ## Testing
 ### Manual Testing
-For the thorough evaluation of the website's functionality, I conducted a series of manual tests across various platforms and devices. 
+For a thorough evaluation of the website's functionality, I conducted a series of manual tests across various platforms and devices. 
 
 - **Desktop Testing:** Verified compatibility using Chrome, Firefox, and Edge browsers on a Windows computer.
 - **Mobile Testing (Android):** Ensured responsiveness and functionality with Chrome and Firefox browsers on an Android device.
@@ -160,20 +160,20 @@ For the thorough evaluation of the website's functionality, I conducted a series
 These rigorous tests ensure a seamless user experience across various platforms and devices.
 
 ### Functional Testing
-| Action                                                                                         | Expected Behavior                                                                                            | Passed or Failed |
+| Action                                                                                         | Expected Behavior                                                                                            | Passed or Failed |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------|
-| Click on the "Home" link in the navigation                                                     | The homepage should load                                                                                    | Passed           |
-| Click on the "Drinks" link in the navigation                                                   | The drinks page should load                                                                                 | Passed           |
-| Click on the "Events" link in the navigation                                                   | The events page should load                                                                                 | Passed           |
-| Click on the "Contact Us" link in the navigation                                               | The contact page should load                                                                                | Passed           |
-| Fill out the contact form with invalid inputs                                                   | Error messages should be displayed indicating invalid input                                                   | Passed           |
-| Fill out the contact form with valid inputs and submit it                                       | A confirmation page should be displayed indicating successful submission                                    | Passed           |
-| Verify that all content is displayed correctly on each page                                     | All content should be displayed properly                                                                     | Passed           |
-| Click on the social media links in the footer                                                   | The respective social media pages should open in a new tab                                                  | Passed           |
-| Play the audio player on the events page                                                        | The audio file should play                                                                                   | Passed           |
-| Pause the audio player                                                                          | The audio playback should pause                                                                               | Passed           |
-| Enter a valid email address in the newsletter form                                             | No error message should be displayed                                                                        | Passed           |
-| Enter an invalid email address in the newsletter form                                           | An error message should be displayed indicating invalid email address                                       | Passed           |
+| Click on the "Home" link in the navigation                                                     | The homepage should load                                                                                    | Passed           |
+| Click on the "Drinks" link in the navigation                                                   | The drinks page should load                                                                                 | Passed           |
+| Click on the "Events" link in the navigation                                                   | The events page should load                                                                                 | Passed           |
+| Click on the "Contact Us" link in the navigation                                               | The contact page should load                                                                                | Passed           |
+| Fill out the contact form with invalid inputs                                                   | Error messages should be displayed indicating invalid input                                                   | Passed           |
+| Fill out the contact form with valid inputs and submit it                                       | A confirmation page should be displayed indicating successful submission                                    | Passed           |
+| Verify that all content is displayed correctly on each page                                     | All content should be displayed properly                                                                     | Passed           |
+| Click on the social media links in the footer                                                   | The respective social media pages should open in a new tab                                                  | Passed           |
+| Play the audio player on the events page                                                        | The audio file should play                                                                                   | Passed           |
+| Pause the audio player                                                                          | The audio playback should pause                                                                               | Passed           |
+| Enter a valid email address in the newsletter form                                             | No error message should be displayed                                                                        | Passed           |
+| Enter an invalid email address in the newsletter form                                           | An error message should be displayed indicating invalid email address                                       | Passed           |
 
 ### Validator Testing
 #### HTML
@@ -192,17 +192,17 @@ To ensure optimal accessibility for all users, extensive color contrast testing 
 ![Test of color contrast main](assets/docs/testing/main-colors.png)
 These tests aimed to verify that text elements across the website maintain sufficient contrast against their respective backgrounds, thus ensuring readability and usability for individuals with visual impairments.
 ### Bugs
-- [✔] Mobile footer is too big because of hidden right side
-- [✔] White line between navigation and main because of wrong margin
-- [✔] Mobile menu not opening because of open paragraph in index.html
+- [✔] Mobile footer is too big because of the hidden right side
+- [✔] White line between navigation and main because of the wrong margin
+- [✔] Mobile menu not opening because of an open paragraph in index.html
 
 ## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here: https://p-harting.github.io/local-bar/
 
@@ -211,13 +211,13 @@ The live link can be found here: https://p-harting.github.io/local-bar/
 - The design for the `<hr>` element was inspired by [CSSTricks](https://css-tricks.com/examples/hrs/).
 - Icons used throughout the website were sourced from [Font Awesome](https://fontawesome.com/).
 - All fonts utilized in the project were obtained from [Google Fonts](https://fonts.google.com/).
-- Techniques for overlaying images with a color were implemented based on advice found on [Stack Overflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image).
-- Responsiveness using child elements was achieved with reference to documentation on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child).
+- Techniques for overlaying images with color were implemented based on advice found on [Stack Overflow](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image).
+- Responsiveness using child elements was achieved with reference to the documentation on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child).
 - Implementation of positioning elements was guided by documentation on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/position).
 - Images of drinks were generated using SDXL from [Stability AI](https://stability.ai/stable-image).
 - Responsive font size calculations were inspired by techniques outlined by Matthew James Taylor on [his website](https://matthewjamestaylor.com/responsive-font-size).
 - Root colors were defined with reference to information provided by [W3Schools](https://www.w3schools.com/css/css3_variables.asp).
-- An audio player was integrated into the website using HTML `<audio>` elements, with guidance from documentation on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
+- An audio player was integrated into the website using HTML `<audio>` elements, with guidance from the documentation on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
 - Background music for the website was sourced from [FreePD](https://freepd.com/upbeat.php), specifically the track "Bar Brawl".
 - A custom 404 error page was created following the instructions provided by [GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
 
