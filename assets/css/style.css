@@ -176,6 +176,7 @@ main {
     background: url("../images/hero.webp") no-repeat center center / cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .7);
     color: var(--cold-white);
+    background-color: #000000;
     padding: 30px 10px;
     height: 340px;
     display: flex;
@@ -251,7 +252,7 @@ main {
 }
 
 .review>div>p {
-    color: #ffe234;
+    color: var(--dark-brown);
 }
 
 /* About us */
