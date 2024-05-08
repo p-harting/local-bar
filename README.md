@@ -5,6 +5,7 @@ Local Bar is your one-stop destination for all things local nightlife. Designed 
 ## [Click to view the live website](https://p-harting.github.io/local-bar/)
 
 ## Contents
+* [Project Rationale](#project-rationale)
 * [UX](#ux)
   * [Wireframes](#wireframes)
     * [Landingpage](#landingpage)
@@ -37,6 +38,22 @@ Local Bar is your one-stop destination for all things local nightlife. Designed 
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
+
+## Project Rationale
+Local Bar, the establishment, inspired the development of this project to provide patrons and potential visitors with easy access to essential information about the venue and its offerings. The key project goals and target audience include:
+
+### Key Project Goals:
+- **Enhancing Visitor Experience:** The primary objective is to create a digital platform that mirrors the welcoming ambiance and convenience of the physical bar, offering patrons an engaging and informative online experience.
+- **Promoting Local Business:** By showcasing the unique atmosphere, events, and drinks available at Local Bar, the project aims to support the local economy and foster community engagement.
+- **Accessibility:** It's imperative to ensure that the website is accessible to all users, including those with disabilities, by implementing responsive design and adhering to web accessibility standards.
+
+### Target Audience:
+The target audience for the Local Bar website comprises:
+- **Regular Patrons:** Individuals who frequent Local Bar and want quick access to information about upcoming events, drink specials, and other updates.
+- **Potential Visitors:** Those who are considering visiting Local Bar for the first time and want to learn more about what the establishment has to offer.
+- **Local Community Members:** Residents of the neighborhood interested in supporting local businesses and staying informed about community events and initiatives.
+
+By catering to the needs of these groups, the Local Bar website aims to serve as a valuable resource for both loyal patrons and newcomers alike, fostering a sense of community and belonging.
 
 ## UX
 Wireframes were meticulously crafted using [Figma](https://www.figma.com/), leveraging its versatile design capabilities and collaborative features.
@@ -80,22 +97,6 @@ In essence, this color palette reflects the ambiance of a local bar, where patro
 For this project, I've incorporated Playfair Display and Lato fonts sourced from Google Fonts. The font sizes are dynamically adjusted for responsive design.
 - Playfair Display is employed for the page logo and headings.
 - Lato is utilized for the menu and body text.
-
-## Project Rationale
-Local Bar, the establishment, inspired the development of this project to provide patrons and potential visitors with easy access to essential information about the venue and its offerings. The key project goals and target audience include:
-
-### Key Project Goals:
-- **Enhancing Visitor Experience:** The primary objective is to create a digital platform that mirrors the welcoming ambiance and convenience of the physical bar, offering patrons an engaging and informative online experience.
-- **Promoting Local Business:** By showcasing the unique atmosphere, events, and drinks available at Local Bar, the project aims to support the local economy and foster community engagement.
-- **Accessibility:** It's imperative to ensure that the website is accessible to all users, including those with disabilities, by implementing responsive design and adhering to web accessibility standards.
-
-### Target Audience:
-The target audience for the Local Bar website comprises:
-- **Regular Patrons:** Individuals who frequent Local Bar and want quick access to information about upcoming events, drink specials, and other updates.
-- **Potential Visitors:** Those who are considering visiting Local Bar for the first time and want to learn more about what the establishment has to offer.
-- **Local Community Members:** Residents of the neighborhood interested in supporting local businesses and staying informed about community events and initiatives.
-
-By catering to the needs of these groups, the Local Bar website aims to serve as a valuable resource for both loyal patrons and newcomers alike, fostering a sense of community and belonging.
 
 ## Features
 ### Navigation Bar
@@ -185,10 +186,12 @@ These rigorous tests ensure a seamless user experience across various platforms 
 ![CSS validator result](assets/docs/testing/css.png)
 - The W3C CSS Validator found no errors in the stylesheet.
 #### Lighthouse
-**Screenshot of the desktop test results:**
+**Screenshot of the desktop test results of the index.html:**
+
 ![Lighthouse desktop result](assets/docs/testing/lighthouse-desktop.png)
 
-**Screenshot of the mobile test results:**
+**Screenshot of the mobile test results of the index.html:**
+
 ![Lighthouse mobile result](assets/docs/testing/lighthouse-mobile.png)
 
 - After using the Chrome Lighthouse tool, I obtained good scores across performance, accessibility, best practices, and SEO.
@@ -210,14 +213,28 @@ These tests aimed to verify that text elements across the website maintain suffi
 - [✔] Mobile menu not opening because of an open paragraph in index.html
 
 ## Deployment
+### Deployment to GitHub Pages
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+ - In the GitHub repository, navigate to the Settings tab
+ - From the source section drop-down menu, select the Master Branch
+ - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here: https://p-harting.github.io/local-bar/
+
+### Clone from Github
+To clone this repository, follow these steps:
+- On the repository's GitHub page, click on the "Code" button.
+- In the dropdown, click on "Clone" to copy the repository's URL to your clipboard.
+- Open your terminal or Git Bash.
+- Navigate to the directory where you want to clone the repository.
+- Use the git clone command followed by the URL you copied earlier to clone the repository to your local machine.
+
+### Fork from Github
+To fork this repository, follow these steps:
+- On the repository's GitHub page, click on the "Fork" button at the top-right corner.
+- Once forked, the repository will be available under your GitHub account.
 
 ## Credits
 - Instructions on how to implement a responsive navigation bar were adapted from tutorials by Love Running.
