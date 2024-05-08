@@ -185,7 +185,12 @@ These rigorous tests ensure a seamless user experience across various platforms 
 ![CSS validator result](assets/docs/testing/css.png)
 - The W3C CSS Validator found no errors in the stylesheet.
 #### Lighthouse
-![Lighthouse result](assets/docs/testing/lighthouse.png)
+**Screenshot of the desktop test results:**
+![Lighthouse desktop result](assets/docs/testing/lighthouse-desktop.png)
+
+**Screenshot of the mobile test results:**
+![Lighthouse mobile result](assets/docs/testing/lighthouse-mobile.png)
+
 - After using the Chrome Lighthouse tool, I obtained good scores across performance, accessibility, best practices, and SEO.
 
 - I could minimize unused CSS and streamline my project by leveraging Font Awesome Pro's feature that allows selective importing of icons. By importing only the icons I need, I can significantly reduce CSS file sizes and optimize performance. It's important to note that a Font Awesome Pro plan is required to access this functionality.
